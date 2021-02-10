@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-    title = 'my-app';
+    title = 'my-pop';
 
     columnDefs = [
-        { field: 'make', sortable: false, filter: true },
+        { field: 'make', sortable: true, filter: true },
         { field: 'model', sortable: false, filter: true },
         { field: 'price', sortable: true, filter: true }
     ];
