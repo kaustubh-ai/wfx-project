@@ -9,9 +9,9 @@ export class AppComponent {
     title = 'my-app';
 
     columnDefs = [
-        { field: 'make', sortable: true, filter: true },
-        { field: 'model', sortable: true, filter: true },
-        { field: 'price', sortable: true, filter: true }
+        { field: 'make', sortable: false, filter: true },
+        { field: 'model', sortable: false, filter: true },
+        { field: 'price', sortable: false, filter: true }
     ];
 
     rowData = [
