@@ -11,7 +11,7 @@ export class AppComponent {
     columnDefs = [
         { field: 'make', sortable: false, filter: true },
         { field: 'model', sortable: false, filter: true },
-        { field: 'price', sortable: false, filter: true }
+        { field: 'price', sortable: true, filter: true }
     ];
 
     rowData = [
